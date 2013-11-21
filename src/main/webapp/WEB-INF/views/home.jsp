@@ -42,7 +42,7 @@
 			</div>
 			
 			<div class="row">
-				<div class="col-md-12 hidden-lg hidden-md">
+				<div class="col-md-12">
 					<nav class="navbar navbar-default" role="navigation">
 						<!-- Brand and toggle get grouped for better mobile display -->
 					  	<div class="navbar-header">
@@ -58,21 +58,30 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="#">Home</a></li>
-								<li class="hidden-sm hidden-xs"><a href="#">About Us</a></li>
-								<li class="dropdown">
+								<li class="nav active"><a href="#">Home</a></li>
+								<li class="nav hidden-sm hidden-xs"><a href="#">About Us</a></li>
+								<li class="nav dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
-					        		<ul class="dropdown-menu">
+					        		<ul class="dropdown-menu" role="menu">
 					          			<li><a href="#">Education Consultancy</a></li>
+					          			<li><a href="#">&nbsp;&nbsp;&nbsp;Singapore</a></li>
+					          			<li><a href="#">&nbsp;&nbsp;&nbsp;Malaysia</a></li>
+					          			<li><a href="#">&nbsp;&nbsp;&nbsp;Australia</a></li>
+					          			<li><a href="#">&nbsp;&nbsp;&nbsp;United Kingdom</a></li>
+					          			<li><a href="#">&nbsp;&nbsp;&nbsp;USA</a></li>
+					          			<li class="divider"></li>
 					          			<li><a href="#">Accommodations</a></li>
+					          			<li class="divider"></li>
 					          			<li><a href="#">Phychology Test</a></li>
 					          			<li class="divider"></li>
 					          			<li><a href="#">Others</a></li>
 					        		</ul>
 					      		</li>
-								<li><a href="#">News / Blogs</a></li>
-								<li class="hidden-sm hidden-xs"><a href="#">Partners</a></li>
-								<li class="hidden-sm hidden-xs"><a href="#">Gallery</a></li>
+								<li class="nav"><a href="#">News / Blogs</a></li>
+								<li class="nav hidden-sm hidden-xs"><a href="#">Partners</a></li>
+								<li class="nav hidden-sm hidden-xs"><a href="#">Gallery</a></li>
+								<li class="nav"><a href="#">FAQ</a></li>					    		
+					      		<li class="nav"><a href="#">Contact Us</a></li>
 					    	</ul>
 					    	<form class="navbar-form navbar-right hidden-sm hidden-xs" role="search">
 					      		<div class="form-group">
@@ -80,19 +89,11 @@
 					      		</div>
 					      		<button type="submit" class="btn btn-default">Go</button>
 					    	</form>
-					    	<ul class="nav navbar-nav navbar-right">
-					      		<li><a href="#">Contact Us</a></li>
-					    	</ul>
 						</div>
 					</nav>					
 				</div>
 			</div>
-			
-			<div class="row">
-				<div class="col-md-12 hidden-sm hidden-xs">
-				</div>
-			</div>
-			
+						
 			<div class="row">
 				&nbsp;
 			</div>
