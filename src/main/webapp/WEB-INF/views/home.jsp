@@ -42,7 +42,7 @@
 			</div>
 			
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 hidden-lg hidden-md">
 					<nav class="navbar navbar-default" role="navigation">
 						<!-- Brand and toggle get grouped for better mobile display -->
 					  	<div class="navbar-header">
@@ -87,7 +87,12 @@
 					</nav>					
 				</div>
 			</div>
-
+			
+			<div class="row">
+				<div class="col-md-12 hidden-sm hidden-xs">
+				</div>
+			</div>
+			
 			<div class="row">
 				&nbsp;
 			</div>
