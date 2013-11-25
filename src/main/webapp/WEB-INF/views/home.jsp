@@ -59,7 +59,7 @@
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
 								<li class="nav active"><a href="#">Home</a></li>
-								<li class="nav hidden-sm hidden-xs"><a href="#">About Us</a></li>
+								<li class="nav hidden-sm hidden-xs"><a href="about.html">About Us</a></li>
 								<li class="nav dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
 					        		<ul class="dropdown-menu" role="menu">
@@ -81,7 +81,7 @@
 								<li class="nav hidden-sm hidden-xs"><a href="#">Partners</a></li>
 								<li class="nav hidden-sm hidden-xs"><a href="#">Gallery</a></li>
 								<li class="nav"><a href="#">FAQ</a></li>					    		
-					      		<li class="nav"><a href="#">Contact Us</a></li>
+					      		<li class="nav"><a href="contact.html">Contact Us</a></li>
 					    	</ul>
 					    	<form class="navbar-form navbar-right hidden-sm hidden-xs" role="search">
 					      		<div class="form-group">
