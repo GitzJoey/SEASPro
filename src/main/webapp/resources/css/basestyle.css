@@ -1,5 +1,5 @@
 body {
-	background-image: url('/resources/images/background/bg9.jpg');
+	background-image: url('/resources/images/background/bg4.jpg');
 	background-repeat: no-repeat;
 	background-color: rgb(225, 225, 225);
 }
@@ -32,6 +32,10 @@ body {
 
 .divPanel.nobottom {
 	padding-bottom: 0px
+}
+
+#divMain {
+	background-image: url('/resources/images/background/bg4.jpg');
 }
 
 /* Header */
