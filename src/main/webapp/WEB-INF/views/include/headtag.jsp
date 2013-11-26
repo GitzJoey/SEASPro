@@ -7,10 +7,6 @@
 	
 	<link rel="stylesheet" type="text/css" href="/resources/css/basestyle.css">
 	
-	<link rel="stylesheet" type="text/css" href="/resources/superfish/css/superfish.css">
-	<link rel="stylesheet" type="text/css" href="/resources/superfish/css/superfish-navbar.css">	
-	<link rel="stylesheet" type="text/css" media="screen" href="/resources/superfish/css/megafish.css">
-	    
     <link rel="stylesheet" type="text/css" href="/resources/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/resources/bootstrap/css/bootstrap-theme.min.css">
 

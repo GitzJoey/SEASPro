@@ -1,9 +1,3 @@
-body {
-	background-image: url('/resources/images/background/bg4.jpg');
-	background-repeat: no-repeat;
-	background-color: rgb(225, 225, 225);
-}
-
 /* Rounded Corners for #divBoxed */
 .transparent-bg {
 	-moz-box-shadow: rgba(0, 0, 0, 0.294118) 0px 1px 4px;
@@ -35,7 +29,30 @@ body {
 }
 
 #divMain {
-	background-image: url('/resources/images/background/bg4.jpg');
+	
+}
+
+.countryheader {
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+.countrydivider {
+	margin-top: 15px;	
+	margin-bottom: 15px;
+}
+
+.countryhome {
+	text-align: center;	
+}
+
+.countryimg {
+	width: 175px;
+	height: 110px;
+}
+
+.border {
+	border: 1px solid black;
 }
 
 /* Header */
@@ -98,7 +115,7 @@ h3,h4,h5,h6 {
 /* Footer elements */
 .copyright {
 	font-family: "Lucida Console", Lucida;
-	font-size: smaller;
+	font-size: 10px;
 	letter-spacing: 1px;
 	text-align: center;
 	padding-top: 15px;
@@ -108,8 +125,19 @@ h3,h4,h5,h6 {
 	letter-spacing: 1px;
 	text-decoration: none;
 	margin-right: 20px;
-	text-align: center;
+	text-align: right;
+	font-size: 18px;	
 }
+
+.aboutpoint ul li {
+	margin-left: 23px;
+	font-size: smaller;	
+}
+
+.footerdivider {
+	margin-top: 15px;
+}
+
 /* Footer elements */
 
 /* Contact */

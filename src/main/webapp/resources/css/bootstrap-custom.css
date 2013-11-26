@@ -1,11 +1,4 @@
-.dropdown-menu li.title {
-
-}
-
-.dropdown-menu li.level_1 {
-
-}
-
-.dropdown-menu li.level_2 > a {
-	
+body {
+	background-image: url('/resources/images/background/bg7.jpg');
+	background-color: rgb(64, 95, 101);	
 }

@@ -8,8 +8,8 @@
 
 	<div id="divBoxed" class="container">
 		<div class="transparent-bg" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: -1;zoom: 1;"></div>
-		<!-- Header -->
 		
+		<!-- Header -->		
 		<div class="divPanel notop nobottom">
 			
 			<div class="row">
@@ -129,49 +129,23 @@
 					</div>
 				</div>
 				<div class="col-md-4 hidden-sm hidden-xs">
-					<div class="panel-group" id="accordion">
-						<div class="panel panel-default">
-							<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-					          		Pro
-					        		</a>
-					      		</h4>
-					    	</div>
-					    	<div id="collapseOne" class="panel-collapse collapse in">
-					      		<div class="panel-body">
-					        		Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-					      		</div>
-					    	</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-					      		<h4 class="panel-title">
-					        		<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-					          		Trust
-					        		</a>
-					      		</h4>
-							</div>
-					    	<div id="collapseTwo" class="panel-collapse collapse">
-					      		<div class="panel-body">
-					        		Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-					      		</div>
-					    	</div>
-						</div>
-					  	<div class="panel panel-default">
-					    	<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-					      		<h4 class="panel-title">
-					        		<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-					          		Reliable
-					        		</a>
-					      		</h4>
-					    	</div>
-					    	<div id="collapseThree" class="panel-collapse collapse">
-					      		<div class="panel-body">
-					        		Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-					      		</div>
-					    	</div>
-					  	</div>
+					<div class="panel panel-default">
+  						<div class="panel-heading">
+    						<h3 class="panel-title">WELCOME to SEAS Pro!</h3>
+  						</div>
+  						<div class="panel-body">
+							<p><h4>Hello,</h4></p>
+							<p>Through this website you will get better idea on how easy to study abroad is with an extra mile services and understanding client-friendly team. We welcome you to our site.</p>
+							<br>
+							<br>
+							<p>
+							&quot;Knowledge will bring you the opportunity to make a difference.&quot; - Clair Fagin
+							</p>
+							
+  						</div>
+  						<div class="panel-footer">
+  							<button type="button" class="btn btn-primary">Start Now</button>
+  						</div>
 					</div>
 				</div>
 			</div>
@@ -180,88 +154,120 @@
 		
 		<!-- Content -->
 		<div class="row">
-	
-			<div class="col-md-12" id="divMain">
-	
-				<h1>Welcome</h1>
-	
-				<p>Content on this page is for presentation purposes only.
-					Lorem Ipsum is simply dummy text of the printing and typesetting
-					industry. Lorem Ipsum has been the industry’s standard dummy text
-					ever since the 1500s, when an unknown printer took a galley of
-					type and scrambled it to make a type specimen book. Lorem ipsum
-					dolor sit amet, consectetur adipiscing elit.</p>
-	
-				<h1>Hello world!</h1>
-	
-				<P>The time on the server is ${serverTime}.</P>
-	
-				<br />
-	
-				<div class="row">
-					<div class="col-md-4">
-						<h2>1/3 Column</h2>
-						<img src="http://placehold.it/150x90/e7e7e7"
-							class="img-polaroid" style="margin: 5px 0px 15px;">
-						<p>
-							Lorem Ipsum is simply dummy text of the printing and
-							typesetting industry. Lorem ipsum dolor sit amet, consectetur
-							adipiscing elit.<br />
-							<a href="#">Read More &raquo;</a>
-						</p>
-					</div>
-					<div class="col-md-4">
-						<h2>1/3 Column</h2>
-						<img src="http://placehold.it/150x90/e7e7e7"
-							class="img-polaroid" style="margin: 5px 0px 15px;">
-						<p>
-							Lorem Ipsum is simply dummy text of the printing and
-							typesetting industry. Lorem ipsum dolor sit amet, consectetur
-							adipiscing elit.<br />
-							<a href="#">Read More &raquo;</a>
-						</p>
-					</div>
-					<div class="col-md-4">
-						<h2>1/3 Column</h2>
-						<img src="http://placehold.it/150x90/e7e7e7"
-							class="img-polaroid" style="margin: 5px 0px 15px;">
-						<p>
-							Lorem Ipsum is simply dummy text of the printing and
-							typesetting industry. Lorem ipsum dolor sit amet, consectetur
-							adipiscing elit.<br />
-							<a href="#">Read More &raquo;</a>
-						</p>
-					</div>
-				</div>
-	
+			<div class="col-md-12 countryheader">
+				<div><h1>Choose your destination</h1></div>				
 			</div>
-	
+		</div>
+		
+		<div class="row">
+			<div class="col-md-3">
+				<div class="countryhome">
+					<img alt="Singapore" class="countryimg" src="/resources/images/country/SG1.jpg" /> 
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="countryhome">
+					<img alt="Malaysia" class="countryimg" src="/resources/images/country/MY1.jpg" />
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="countryhome">
+					<img alt="Australia" class="countryimg" src="/resources/images/country/AUS1.jpg" />
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="countryhome">
+					<img alt="New Zealand" class="countryimg" src="/resources/images/country/NZ1.jpg" />					
+				</div>
+			</div>
 		</div>
 
+		<div class="countrydivider">&nbsp;</div>
+
+		<div class="row">
+			<div class="col-md-3">
+				<div class="countryhome">
+					<img alt="Swiss" class="countryimg" src="/resources/images/country/EURSW1.jpg" />
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="countryhome">
+					<img alt="Paris" class="countryimg" src="/resources/images/country/EURPR1.jpg" />
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="countryhome">
+					<img alt="United Kingdom" class="countryimg" src="/resources/images/country/UK1.jpg" />
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="countryhome">
+					<img alt="China" class="countryimg" src="/resources/images/country/CH1.jpg" />
+				</div>
+			</div>
+		</div>		
 		<!-- Content -->
 		
+		<!-- Footer -->
+		<div class="divPanel notop nobottom">
+			<div class="footerdivider">
+				&nbsp;
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="aboutpoint pull-left">
+						<ul><a href="#"><h3>About Us</h3></a>
+							<li><a href="#">About SEASPro</a></li>
+							<li><a href="#">Why Choose SEASPro</a></li>
+							<li><a href="#">Meet With Our Team</a></li>
+							<li><a href="#">What's The Parents Say</a></li>
+							<li><a href="#">What's The Students Say</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="aboutpoint pull-left">
+						<ul><a href="#"><h3>Study Destination</h3></a>
+							<li><a href="#">Singapore</a></li>
+							<li><a href="#">Malaysia</a></li>
+							<li><a href="#">Australia</a></li>
+							<li><a href="#">Switzerland</a></li>
+							<li><a href="#">Paris</a></li>
+							<li><a href="#">United Kingdom</a></li>
+							<li><a href="#">USA</a></li>																
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="aboutpoint pull-left">
+						<ul><a href="#"><h3>Branches</h3></a>
+							<li><a href="#">Singapore</a></li>
+							<li><a href="#">Indonesia</a></li>
+						</ul>
+					</div>
+				</div>		
+				<div class="col-md-4">
+					<div class="social_bookmarks pull-right">
+						<ul><h3>&nbsp;</h3></ul>
+						<a href="#" class="fi-social-facebook">Facebook</a><br>
+						<a href="#" class="fi-social-twitter">Twitter</a><br>
+						<a href="#" class="fi-social-pinterest">Pinterest</a><br>
+						<a href="#" class="fi-rss">Rss</a>
+					</div>
+				</div>
+			</div>			
+		</div>
 		<!-- Footer -->
 		
 		<div class="row">
 			<div class="col-md-12">
 				<p class="copyright">
-					Copyright © 2014 SEAS Pro Partners Pte Ltd. All Rights Reserved. Thanks to GitzJoey
+					Copyright © 2014 SEAS Pro Partners Pte Ltd. All Rights Reserved. Thanks to GitzJoey<br>
+					${serverTime}.<br>
+					<img alt="counter" src="/resources/images/counter.png"/>
 				</p>
 			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col-md-12">
-				<p class="social_bookmarks">
-					<a href="#" class="fi-social-facebook">Facebook</a>
-					<a href="#" class="fi-social-twitter">Twitter</a>
-					<a href="#" class="fi-social-pinterest">Pinterest</a>
-					<a href="#" class="fi-rss">Rss</a>
-				</p>
-			</div>
-		</div>
-
-		<!-- Footer -->
+		</div>		
 	</div>
 </body>
 </html>
