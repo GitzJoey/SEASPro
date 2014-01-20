@@ -68,6 +68,12 @@
 	margin-left: 15px;
 }
 
+#divLogo img {
+	padding: 5px;
+	width: 175px;
+	height: 175px;	
+}
+
 #divLogoText {
 	margin-left: 25px; 
 }
