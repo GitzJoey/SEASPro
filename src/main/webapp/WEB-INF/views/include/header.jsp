@@ -3,7 +3,7 @@
 		<div class="divPanel notop nobottom">
 			
 			<div class="row">
-				<div class="col-md-1">
+				<div class="col-md-1">					
 					<div id="divLogo">
 						<img alt="SEASPro Logo" src="/resources/images/logo2.png" />						
 					</div>
