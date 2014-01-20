@@ -127,8 +127,8 @@ h3,h4,h5,h6 {
 	padding-top: 15px;
 }
 
-.social_bookmarks ul li {
-	font-size: smaller;	
+.social_bookmarks{
+	margin-top: 10px;
 	margin-left: 20px;
 	margin-bottom: 7px;
 	text-align: right;
@@ -152,4 +152,12 @@ h3,h4,h5,h6 {
 	background-image: url('/resources/images/background/aboutbg1.png');
 	background-repeat: no-repeat;
 	background-position: right bottom;
+}
+
+.separator-right {
+	border-right: 0.25px solid gray; 
+}
+
+.separator-left {
+	border-left: 0.25px solid gray;
 }

@@ -37,16 +37,27 @@
 							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Indonesia</a></li>
 						</ul>
 					</div>
-				</div>		
-				<div class="col-md-3 col-sm-12 col-xs-12">
-					<div class="social_bookmarks">
-						<ul class="list-unstyled"><h3>&nbsp;</h3>
-							<li><a href="#" class="fi-social-facebook">&nbsp;Facebook</a></li>
-							<li><a href="#" class="fi-social-twitter">&nbsp;Twitter</a><br></li>
-							<li><a href="#" class="fi-social-pinterest">&nbsp;Pinterest</a><br></li>
-							<li><a href="#" class="fi-social-google-plus">&nbsp;Google Plus</a>
-							<li><a href="#" class="fi-rss">&nbsp;Rss</a></li>
+				</div>
+				<div class="col-md-3">
+					<div class="aboutpoint">
+						<ul class="list-unstyled"><a href="#"><h3><span class="glyphicon glyphicon-envelope"></span>&nbsp;Newsletters</h3></a>
+							Enter your email address to subscribe to SeasPro and receive notifications of new updates by email.
+							<br>
+							<br>
+							<input type="email" class="form-control" id="newsletteremail" placeholder="Enter email">
 						</ul>						
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="social_bookmarks">
+						<a href="#" class="fi-social-facebook">&nbsp;Facebook</a>&nbsp;&nbsp;
+						<a href="#" class="fi-social-twitter">&nbsp;Twitter</a>&nbsp;&nbsp;
+						<a href="#" class="fi-social-path">&nbsp;Path</a>&nbsp;&nbsp;
+						<a href="#" class="fi-social-pinterest">&nbsp;Pinterest</a>&nbsp;&nbsp;
+						<a href="#" class="fi-social-google-plus">&nbsp;Google Plus</a>&nbsp;&nbsp;
+						<a href="#" class="fi-rss">&nbsp;Rss</a>
 					</div>
 				</div>
 			</div>			
