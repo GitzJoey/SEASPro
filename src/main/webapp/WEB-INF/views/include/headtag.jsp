@@ -22,6 +22,8 @@
 	<!--[if lt IE 9]><script type="text/javascript" src="/resources/js/jquery-1.x.min.js"></script><![endif]-->
 	<!--[if IE 9]><!--><script type="text/javascript" src="/resources/js/jquery-2.x.min.js"></script><!--<![endif]-->	
 	
+	<!--[if lt IE 9]><script type="text/javascript" src="/resources/bgSize/jquery.backgroundSize.js"></script><![endif]-->
+	
 	<script type="text/javascript" src="/resources/bootstrap/js/bootstrap.min.js"></script>
 	
 	<script type="text/javascript" src="/resources/js/jquery.easing.1.3.js"></script>
