@@ -1,4 +1,23 @@
 body {
-	background-image: url('/resources/images/background/bg7.jpg');
+	background-image: url('/resources/images/background/bg1.jpg');
 	background-color: rgb(64, 95, 101);	
+}
+
+.navbar-inverse {
+	border-bottom-color: #022241;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	background-image: linear-gradient(rgb(4, 81, 155), rgb(4, 70, 135) 60%, rgb(3, 55, 105));
+	background-repeat: no-repeat;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: rgb(49, 126, 172);
 }

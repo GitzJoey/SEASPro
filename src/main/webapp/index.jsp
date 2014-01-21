@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>SEASPro - Loading...</title>
 </head>
-<body>
+<body>	
 	<c:redirect url="home.html"/>  	
 </body>
 </html>

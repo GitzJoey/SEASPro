@@ -3,16 +3,11 @@
 		<div class="divPanel notop nobottom">
 			
 			<div class="row">
-				<div class="col-md-1">					
-					<div id="divLogo">
-						<img alt="SEASPro Logo" src="/resources/images/logo2.png" />						
-					</div>
-				</div>
-				<div class="col-md-7 hidden-sm hidden-xs">
+				<div class="col-md-8">
 					<div id="divLogoText">					
-						<img alt="SEASPro Text" src="/resources/images/seaspro.png" />
+						<img class="img-responsive" alt="SEASPro Text" src="/resources/images/seaspro.png" />
 					</div>				
-				</div>
+				</div>				
 				<div class="col-md-4 pull-right hidden-md hidden-sm hidden-xs">
 					<div class="flagcontainer">
 						<div class="flagbox">
@@ -33,7 +28,7 @@
 			
 			<div class="row">
 				<div class="col-md-12">
-					<nav class="navbar navbar-default" role="navigation">
+					<nav class="navbar navbar-inverse" role="navigation">
 						<!-- Brand and toggle get grouped for better mobile display -->
 					  	<div class="navbar-header">
 					    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -70,14 +65,14 @@
 								<li class="nav"><a href="#">News / Blogs</a></li>
 								<li class="nav hidden-sm hidden-xs"><a href="#">Partners</a></li>
 								<li class="nav hidden-sm hidden-xs"><a href="#">Gallery</a></li>
-								<li class="nav"><a href="#">FAQ</a></li>					    		
+								<li class="nav"><a href="faq.html">FAQ</a></li>					    		
 					      		<li class="nav"><a href="contact.html">Contact Us</a></li>
 					    	</ul>
 					    	<form class="navbar-form navbar-right hidden-md hidden-sm hidden-xs" role="search">
 					      		<div class="form-group">
 					        		<input type="text" class="form-control" placeholder="Search">
 					      		</div>
-					      		<button type="submit" class="btn btn-default">Go</button>
+					      		<button type="submit" class="btn btn-primary">Go</button>
 					    	</form>
 						</div>
 					</nav>					

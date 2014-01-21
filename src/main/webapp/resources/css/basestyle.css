@@ -35,8 +35,8 @@
 }
 
 .countryheader {
-	margin-top: 35px;
-	margin-bottom: 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .countryfooter {
@@ -62,27 +62,10 @@
 }
 
 /* Header */
-#divLogo {
-	margin-top: 5px;
-	margin-bottom: 10px;
-	margin-left: 15px;
-}
-
-#divLogo img {
-	padding: 5px;
-	width: 100px;
-	height: 100px;	
-}
-
 #divLogoText {	
-	margin-left: 25px;
-	padding-top: 35px;
-	padding-bottom: 25px; 
-}
-
-#divLogoText img {
-	width: 400px;
-	height: 75x;	
+	margin-left: 2px;
+	padding-top: 15px;
+	padding-bottom: 15px; 
 }
 
 .flagcontainer {
@@ -168,4 +151,12 @@ h3,h4,h5,h6 {
 
 .separator-left {
 	border-left: 0.25px solid gray;
+}
+
+
+/* Under Constructions */
+.underconst {
+	background-image: url('/resources/images/background/aboutbg1.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
 }

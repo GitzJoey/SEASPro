@@ -14,60 +14,69 @@
 		<!-- Header -->
 		
 		<!-- Content -->
-		<div>
+		<div id="divMain">
+			<div class="row">
+				<div class="col-md-12">
+				&nbsp;
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-md-6 separator-right">
-					<b>Write To Us</b>
-					<br>
-					<p>Sharing your feedback, good or bad, will aid us in creating a site that can meet your needs. We'd like to hear from you
-					</p>
-					<br>
-					<form class="form-horizontal" role="form">						
-  						<div class="form-group">
-  							<label for="inputEmail_name" class="col-sm-2 control-label">Name*</label>    						
-    						<div class="col-sm-10">
-      							<input type="text" class="form-control" id="inputEmail_name" placeholder="Your Name">
-    						</div>
-  						</div>
-  						<div class="form-group">
-    						<label for="inputEmail_email" class="col-sm-2 control-label">Email*</label>
-    						<div class="col-sm-10">
-      							<input type="email" class="form-control" id="inputEmail_email" placeholder="Your Email">
-    						</div>
-  						</div>
-  						<div class="form-group">
-    						<label for="inputEmail_subject" class="col-sm-2 control-label">Subject</label>
-    						<div class="col-sm-10">
-      							<input type="text" class="form-control" id="inputEmail_subject" placeholder="Your Thoughts">
-    						</div>
-  						</div>
-  						<div class="form-group">
-    						<label for="inputEmail_message" class="col-sm-2 control-label">Message</label>
-    						<div class="col-sm-10">
-      							<textarea class="form-control" rows="5"></textarea>
-    						</div>
-  						</div>
-	  					<div class="form-group">
-	    					<div class="col-sm-offset-2 col-sm-10">
-	      						<div class="checkbox">
-	        						<label>
-	          							<input type="checkbox"> Subscribe me to the site newsletters.
-	        						</label>
-	      						</div>
-	    					</div>
-	  					</div>
-	  					<div class="form-group">
-	    					<div class="col-sm-offset-2 col-sm-10">
-	      						<button type="submit" class="btn btn-default">Send</button>
-	    					</div>
-	  					</div>
-					</form>
+					<div class="well">
+						<h1><b>Write To Us</b></h1>
+						<hr>
+						<p>Sharing your feedback, good or bad, will aid us in creating a site that can meet your needs. We'd like to hear from you
+						</p>
+						<br>
+						<form class="form-horizontal" role="form">						
+	  						<div class="form-group">
+	  							<label for="inputEmail_name" class="col-sm-2 control-label">Name*</label>    						
+	    						<div class="col-sm-10">
+	      							<input type="text" class="form-control" id="inputEmail_name" placeholder="Your Name">
+	    						</div>
+	  						</div>
+	  						<div class="form-group">
+	    						<label for="inputEmail_email" class="col-sm-2 control-label">Email*</label>
+	    						<div class="col-sm-10">
+	      							<input type="email" class="form-control" id="inputEmail_email" placeholder="Your Email">
+	    						</div>
+	  						</div>
+	  						<div class="form-group">
+	    						<label for="inputEmail_subject" class="col-sm-2 control-label">Subject</label>
+	    						<div class="col-sm-10">
+	      							<input type="text" class="form-control" id="inputEmail_subject" placeholder="Your Thoughts">
+	    						</div>
+	  						</div>
+	  						<div class="form-group">
+	    						<label for="inputEmail_message" class="col-sm-2 control-label">Message</label>
+	    						<div class="col-sm-10">
+	      							<textarea class="form-control" rows="8"></textarea>
+	    						</div>
+	  						</div>
+		  					<div class="form-group">
+		    					<div class="col-sm-offset-2 col-sm-10">
+		      						<div class="checkbox">
+		        						<label>
+		          							<input type="checkbox"> Subscribe me to the site newsletters.
+		        						</label>
+		      						</div>
+		    					</div>
+		  					</div>
+		  					<div class="form-group">
+		    					<div class="col-sm-offset-2 col-sm-10">
+		      						<button class="btn btn-default">Cancel</button>
+		      						<button type="submit" class="btn btn-primary">Send</button>
+		    					</div>
+		  					</div>
+						</form>
+					</div>
 				</div>
 				<div class="col-md-6 separator-left">
 				
 				</div>
 			</div>
-		</div>		
+			<br>
+		</div>
 		<!-- Content -->
 		
 		<!-- Footer -->

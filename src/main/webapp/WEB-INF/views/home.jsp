@@ -50,7 +50,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 hidden-sm hidden-xs">
-					<div class="panel panel-default">
+					<div class="panel panel-primary">
   						<div class="panel-heading">
     						<h3 class="panel-title">WELCOME to SEAS Pro!</h3>
   						</div>
