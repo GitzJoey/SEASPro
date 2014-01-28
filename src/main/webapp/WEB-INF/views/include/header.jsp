@@ -64,7 +64,7 @@
 					      		</li>
 								<li class="nav"><a href="#">News / Blogs</a></li>
 								<li class="nav hidden-sm hidden-xs"><a href="#">Partners</a></li>
-								<li class="nav hidden-sm hidden-xs"><a href="#">Gallery</a></li>
+								<li class="nav hidden-sm hidden-xs"><a href="gallery.html">Gallery</a></li>
 								<li class="nav"><a href="faq.html">FAQ</a></li>					    		
 					      		<li class="nav"><a href="contact.html">Contact Us</a></li>
 					    	</ul>

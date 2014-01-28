@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class GalleryController {
 	private static final Logger logger = LoggerFactory.getLogger(GalleryController.class);
 	
-	@RequestMapping(value = "/home.html", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
+	@RequestMapping(value = "/gallery.html", method = RequestMethod.GET)
+	public String gallery(Locale locale, Model model) {
+		logger.info("Landed In Gallery! The client locale is {}.", locale);
 		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
@@ -26,6 +26,6 @@ public class GalleryController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "home";
+		return "gallery";
 	}
 }

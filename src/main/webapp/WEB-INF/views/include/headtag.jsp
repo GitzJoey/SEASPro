@@ -14,23 +14,14 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="/resources/foundation-icons/foundation-icons.css">  
 
-    <link href="http://fonts.googleapis.com/css?family=Chewy" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Terminal+Dosis+Light" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet" type="text/css">   
-
 	<!--[if lt IE 9]><script type="text/javascript" src="/resources/js/jquery-1.x.min.js"></script><![endif]-->
 	<!--[if IE 9]><!--><script type="text/javascript" src="/resources/js/jquery-2.x.min.js"></script><!--<![endif]-->	
-	
-	<!--[if lt IE 9]><script type="text/javascript" src="/resources/bgSize/jquery.backgroundSize.js"></script><![endif]-->
-	
+		
 	<script type="text/javascript" src="/resources/bootstrap/js/bootstrap.min.js"></script>
 	
 	<script type="text/javascript" src="/resources/js/jquery.easing.1.3.js"></script>
 	
 	<script type="text/javascript" src="/resources/js/hoverIntent.js"></script>
-	
-	<script type="text/javascript" src="/resources/superfish/js/superfish.min.js"></script>
 	
 	<script type="text/javascript" src="/resources/js/default.js"></script>
 
