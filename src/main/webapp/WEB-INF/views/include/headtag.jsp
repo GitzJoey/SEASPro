@@ -7,9 +7,9 @@
 	
 	<link rel="stylesheet" type="text/css" href="/resources/css/basestyle.css">
 	
-    <link rel="stylesheet" type="text/css" href="/resources/cerulean-theme/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/resources/cerulean-theme/bootswatch.less">
-    <link rel="stylesheet" type="text/css" href="/resources/cerulean-theme/variables.less">
+    <link rel="stylesheet" type="text/css" href="/resources/cerulean-theme/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/resources/cerulean-theme/css/bootswatch.less">
+    <link rel="stylesheet" type="text/css" href="/resources/cerulean-theme/css/variables.less">
 	
 	<!--<link rel="stylesheet" type="text/css" href="/resources/css/bootstrap-custom.css">-->
 
