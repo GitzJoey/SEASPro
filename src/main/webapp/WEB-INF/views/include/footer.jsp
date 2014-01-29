@@ -8,39 +8,39 @@
 			<div class="row">
 				<div class="col-md-3">
 					<div class="aboutpoint">
-						<ul class="list-unstyled"><a href="#"><h3><span class="glyphicon glyphicon-pencil"></span>&nbsp;Study Destination</h3></a>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Singapore</a></li>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Malaysia</a></li>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Australia</a></li>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Switzerland</a></li>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Paris</a></li>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;United Kingdom</a></li>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;USA</a></li>
+						<ul class="list-unstyled"><a href="#"><h3><i class="fa fa-pencil"></i>&nbsp;Study Destination</h3></a>
+							<li><a href="#"><i class="fa fa-chevron-right"></i>&nbsp;Singapore</a></li>
+							<li><a href="#"><i class="fa fa-chevron-right"></i>&nbsp;Malaysia</a></li>
+							<li><a href="#"><i class="fa fa-chevron-right"></i>&nbsp;Australia</a></li>
+							<li><a href="#"><i class="fa fa-chevron-right"></i>&nbsp;Switzerland</a></li>
+							<li><a href="#"><i class="fa fa-chevron-right"></i>&nbsp;Paris</a></li>
+							<li><a href="#"><i class="fa fa-chevron-right"></i>&nbsp;United Kingdom</a></li>
+							<li><a href="#"><i class="fa fa-chevron-right"></i>&nbsp;USA</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="aboutpoint">
-						<ul class="list-unstyled"><a href="#"><h3><span class="glyphicon glyphicon-info-sign"></span>&nbsp;About Us</h3></a>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;About SEASPro</a></li>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Why Choose SEASPro</a></li>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Meet With Our Team</a></li>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;What's The Parents Say</a></li>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;What's The Students Say</a></li>
+						<ul class="list-unstyled"><a href="#"><h3><i class="fa fa-info"></i>&nbsp;About Us</h3></a>
+							<li><a href="#"><i class="fa fa-chevron-right"></i>&nbsp;About SEASPro</a></li>
+							<li><a href="#"><i class="fa fa-chevron-right"></i>&nbsp;Why Choose SEASPro</a></li>
+							<li><a href="#"><i class="fa fa-chevron-right"></i>&nbsp;Meet With Our Team</a></li>
+							<li><a href="#"><i class="fa fa-chevron-right"></i>&nbsp;What's The Parents Say</a></li>
+							<li><a href="#"><i class="fa fa-chevron-right"></i>&nbsp;What's The Students Say</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="aboutpoint">
-						<ul class="list-unstyled"><a href="#"><h3><span class="glyphicon glyphicon-globe"></span>&nbsp;Branches</h3></a>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Singapore</a></li>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;Indonesia</a></li>
+						<ul class="list-unstyled"><a href="#"><h3><i class="fa fa-globe"></i>&nbsp;Branches</h3></a>
+							<li><a href="#"><i class="fa fa-chevron-right"></i>&nbsp;Singapore</a></li>
+							<li><a href="#"><i class="fa fa-chevron-right"></i>&nbsp;Indonesia</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="aboutpoint">
-						<ul class="list-unstyled"><a href="#"><h3><span class="glyphicon glyphicon-envelope"></span>&nbsp;Newsletters</h3></a>
+						<ul class="list-unstyled"><a href="#"><h3><i class="fa fa-envelope"></i>&nbsp;Newsletters</h3></a>
 							Enter your email address to subscribe to SeasPro and receive notifications of new updates by email.
 							<br>
 							<br>

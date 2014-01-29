@@ -7,12 +7,15 @@
 	
 	<link rel="stylesheet" type="text/css" href="/resources/css/basestyle.css">
 	
-    <link rel="stylesheet" type="text/css" href="/resources/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/resources/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="/resources/cerulean-theme/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/resources/cerulean-theme/bootswatch.less">
+    <link rel="stylesheet" type="text/css" href="/resources/cerulean-theme/variables.less">
 	
-	<link rel="stylesheet" type="text/css" href="/resources/css/bootstrap-custom.css">
+	<!--<link rel="stylesheet" type="text/css" href="/resources/css/bootstrap-custom.css">-->
 
-    <link rel="stylesheet" type="text/css" media="screen" href="/resources/foundation-icons/foundation-icons.css">  
+    <link rel="stylesheet" type="text/css" media="screen" href="/resources/foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/resources/font-awesome/css/font-awesome.min.css">
+      
 
 	<!--[if lt IE 9]><script type="text/javascript" src="/resources/jQuery/jquery-1.x.min.js"></script><![endif]-->
 	<!--[if IE 9]><!--><script type="text/javascript" src="/resources/jQuery/jquery-2.x.min.js"></script><!--<![endif]-->	
