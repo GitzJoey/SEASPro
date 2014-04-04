@@ -30,27 +30,27 @@
 		            		<li>
 		            			<a href="#post1">General Questions</a>
 		            			<ul class="nav">
-		            				<li><a href="#post1_1">test 1</a></li>
-		            				<li><a href="#post1_2">test 2</a></li>
-		            				<li><a href="#post1_3">test 3</a></li>
-		            				<li><a href="#post1_4">test 4</a></li>
-		            				<li><a href="#post1_5">test 5</a></li>
-		            				<li><a href="#post1_6">test 6</a></li>
+		            				<li><a href="#post1_1">Service Charges</a></li>
+		            				<li><a href="#post1_2">Documents Required</a></li>
+		            				<li><a href="#post1_3">Documents Translation</a></li>
+		            				<li><a href="#post1_4">How To Send Documents</a></li>
+		            				<li><a href="#post1_5">Processing Time</a></li>
+		            				<li><a href="#post1_6">School Fee</a></li>
 		            			</ul>
 		            		</li>
 		            		<li>
 		            			<a href="#post2">Accommodation</a>
 		            			<ul>
-		            				<li><a href="#post2_1">test 1</a></li>
-		            				<li><a href="#post2_2">test 2</a></li>
-		            				<li><a href="#post2_3">test 3</a></li>
+		            				<li><a href="#post2_1">Accommodation Service</a></li>
+		            				<li><a href="#post2_2">Homestay</a></li>
+		            				<li><a href="#post2_3">Replacement</a></li>
 		            			</ul>		            			
 		            		</li>
 		            		<li>
 		            			<a href="#post3">Student Visa</a>
 		            			<ul>
-		            				<li><a href="#post3_1">test 1</a></li>
-		            				<li><a href="#post3_2">test 2</a></li>
+		            				<li><a href="#post3_1">How To Apply</a></li>
+		            				<li><a href="#post3_2">Visa For Parents</a></li>
 		            			</ul>		            			
 	            			</li>
 	            			<li>

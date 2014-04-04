@@ -40,13 +40,6 @@ public class HomeController {
 	public String comingsoon(Locale locale, Model model) {
 		logger.info("Landed in Coming Soon! The client locale is {}.", locale);
 		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
-		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
-		
 		return "comingsoon";
 	}
 }
