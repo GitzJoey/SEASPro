@@ -7,7 +7,7 @@
 		<td>
 		</td>
 		<td>
-			<img alt="SEASPro" src="/resources/images/logo2.png"/>
+			<img alt="SEASPro" src="${pageContext.request.contextPath}/resources/images/logo2.png"/>
 		</td>
 		<td>
 			

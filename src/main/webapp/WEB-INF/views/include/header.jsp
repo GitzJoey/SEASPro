@@ -5,22 +5,22 @@
 			<div class="row">
 				<div class="col-md-8">
 					<div id="divLogoText">					
-						<img class="img-responsive" alt="SEASPro Text" src="/resources/images/seaspro.png" />
+						<img class="img-responsive" alt="SEASPro Text" src="${pageContext.request.contextPath}/resources/images/seaspro.png" />
 					</div>				
 				</div>				
 				<div class="col-md-4 pull-right hidden-md hidden-sm hidden-xs">
 					<div class="flagcontainer">
 						<div class="flagbox">
-							<img class="flagsize" alt="China" src="/resources/images/flag/China.png"/>
+							<img class="flagsize" alt="China" src="${pageContext.request.contextPath}/resources/images/flag/China.png"/>
 						</div>
 						<div class="flagbox">
-							<img class="flagsize" alt="Phillipines" src="/resources/images/flag/Philippines.png"/>
+							<img class="flagsize" alt="Phillipines" src="${pageContext.request.contextPath}/resources/images/flag/Philippines.png"/>
 						</div>
 						<div class="flagbox">
-							<img class="flagsize" alt="Indonesia" src="/resources/images/flag/Indonesia.png"/>
+							<img class="flagsize" alt="Indonesia" src="${pageContext.request.contextPath}/resources/images/flag/Indonesia.png"/>
 						</div>
 						<div class="flagboxselected">
-							<img class="flagsize" alt="English" src="/resources/images/flag/USA.png"/>
+							<img class="flagsize" alt="English" src="${pageContext.request.contextPath}/resources/images/flag/USA.png"/>
 						</div>
 					</div>
 				</div>

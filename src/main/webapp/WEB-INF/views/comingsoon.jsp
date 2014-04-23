@@ -11,7 +11,7 @@
 		<br>
 		<br>
 		<br>
-		<img alt="Coming Soon" src="/resources/images/comingsoon.png">
+		<img alt="Coming Soon" src="${pageContext.request.contextPath}/resources/images/comingsoon.png">
 		<br>
 		<br>
 		<br>

@@ -31,11 +31,11 @@
 					  	<!-- Wrapper for slides -->
 					  	<div class="carousel-inner">
 					    	<div class="item active">
-					      		<img src="/resources/images/slideshow/slide1.jpg" alt="2 Businessman">
+					      		<img src="${pageContext.request.contextPath}/resources/images/slideshow/slide1.jpg" alt="2 Businessman">
 					      		<div class="carousel-caption">2 Businessman</div>
 							</div>
 					    	<div class="item">
-					      		<img src="/resources/images/slideshow/slide2.jpg" alt="Keyboard">
+					      		<img src="${pageContext.request.contextPath}/resources/images/slideshow/slide2.jpg" alt="Keyboard">
 					      		<div class="carousel-caption">Keyboard</div>
 							</div>
 						</div>
@@ -85,7 +85,7 @@
 				<div class="col-md-3">
 					<div class="countryhome">					
 						<a href="#">
-							<img alt="Singapore" class="img-responsive img-thumbnail countryimg" src="/resources/images/country/SG1.jpg" />
+							<img alt="Singapore" class="img-responsive img-thumbnail countryimg" src="${pageContext.request.contextPath}/resources/images/country/SG1.jpg" />
 							<br>
 							<h3>Singapore</h3>
 						</a> 
@@ -94,7 +94,7 @@
 				<div class="col-md-3">
 					<div class="countryhome">
 						<a href="#">
-							<img alt="Malaysia" class="img-responsive img-thumbnail countryimg" src="/resources/images/country/MY1.jpg" />
+							<img alt="Malaysia" class="img-responsive img-thumbnail countryimg" src="${pageContext.request.contextPath}/resources/images/country/MY1.jpg" />
 							<br>
 							<h3>Malaysia</h3>
 						</a> 
@@ -103,7 +103,7 @@
 				<div class="col-md-3">
 					<div class="countryhome">
 						<a href="#">
-							<img alt="Australia" class="img-responsive img-thumbnail countryimg" src="/resources/images/country/AUS1.jpg" />
+							<img alt="Australia" class="img-responsive img-thumbnail countryimg" src="${pageContext.request.contextPath}/resources/images/country/AUS1.jpg" />
 							<br>
 							<h3>Australia</h3>
 						</a> 
@@ -112,7 +112,7 @@
 				<div class="col-md-3">
 					<div class="countryhome">
 						<a href="#">
-							<img alt="New Zealand" class="img-responsive img-thumbnail countryimg" src="/resources/images/country/NZ1.jpg" />
+							<img alt="New Zealand" class="img-responsive img-thumbnail countryimg" src="${pageContext.request.contextPath}/resources/images/country/NZ1.jpg" />
 							<br>
 							<h3>New Zealand</h3>
 						</a>					
@@ -126,7 +126,7 @@
 				<div class="col-md-3">
 					<div class="countryhome">
 						<a href="#">
-							<img alt="Swiss" class="img-responsive img-thumbnail countryimg" src="/resources/images/country/EURSW1.jpg" />
+							<img alt="Swiss" class="img-responsive img-thumbnail countryimg" src="${pageContext.request.contextPath}/resources/images/country/EURSW1.jpg" />
 							<br>
 							<h3>Switzerland</h3>
 						</a>					
@@ -135,7 +135,7 @@
 				<div class="col-md-3">
 					<div class="countryhome">
 						<a href="#">
-							<img alt="United Kingdom" class="img-responsive img-thumbnail countryimg" src="/resources/images/country/UK1.jpg" />
+							<img alt="United Kingdom" class="img-responsive img-thumbnail countryimg" src="${pageContext.request.contextPath}/resources/images/country/UK1.jpg" />
 							<br>
 							<h3>United Kingdom</h3>						
 						</a>										
@@ -144,7 +144,7 @@
 				<div class="col-md-3">
 					<div class="countryhome">
 						<a href="#">
-							<img alt="USA" class="img-responsive img-thumbnail countryimg" src="/resources/images/country/USA1.jpg" />
+							<img alt="USA" class="img-responsive img-thumbnail countryimg" src="${pageContext.request.contextPath}/resources/images/country/USA1.jpg" />
 							<br>
 							<h3>USA</h3>
 						</a>
@@ -153,7 +153,7 @@
 				<div class="col-md-3">
 					<div class="countryhome">
 						<a href="#">
-							<img alt="China" class="img-responsive img-thumbnail countryimg" src="/resources/images/country/CH1.jpg" />
+							<img alt="China" class="img-responsive img-thumbnail countryimg" src="${pageContext.request.contextPath}/resources/images/country/CH1.jpg" />
 							<br>
 							<h3>China</h3>
 						</a>

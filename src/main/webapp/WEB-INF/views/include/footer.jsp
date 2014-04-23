@@ -72,7 +72,7 @@
 					<br>
 					Copyright <span class="glyphicon glyphicon-copyright-mark"></span> 2014 SEAS Pro Partners Pte Ltd. All Rights Reserved. Thanks to GitzJoey<br>
 					${serverTime}.<br>
-					<img alt="counter" src="/resources/images/counter.png"/>
+					<img alt="counter" src="${pageContext.request.contextPath}/resources/images/counter.png"/>
 				</p>
 			</div>
 		</div>

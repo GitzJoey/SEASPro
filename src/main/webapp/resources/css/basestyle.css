@@ -1,6 +1,6 @@
 /* background */
 body {
-	background-image: url('/resources/images/background/bg1.jpg');
+	background-image: url('../../resources/images/background/bg1.jpg');
 	background-color: rgb(64, 95, 101);
 	background-size: cover;	
 }
@@ -147,7 +147,7 @@ h3,h4,h5,h6 {
 
 /* About */
 .aboutbg {
-	background-image: url('/resources/images/background/aboutbg1.png');
+	background-image: url('../../resources/images/background/aboutbg1.png');
 	background-repeat: no-repeat;
 	background-position: right bottom;
 }
@@ -163,7 +163,7 @@ h3,h4,h5,h6 {
 
 /* Under Constructions */
 .underconst {
-	background-image: url('/resources/images/background/aboutbg1.png');
+	background-image: url('../../resources/images/background/aboutbg1.png');
 	background-repeat: no-repeat;
 	background-position: right bottom;
 }

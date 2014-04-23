@@ -4,16 +4,16 @@
 <head>
 	<jsp:include page="/WEB-INF/views/include/headtag.jsp"></jsp:include>
 	
-	<link rel="stylesheet" type="text/css" href="/resources/fancybox/source/jquery.fancybox.css" media="screen" />
-	<link rel="stylesheet" href="/resources/fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="/resources/fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/fancybox/source/jquery.fancybox.css" media="screen" />
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
 		
-	<script type="text/javascript" src="/resources/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 	
-	<script type="text/javascript" src="/resources/fancybox/source/jquery.fancybox.pack.js"></script>
-	<script type="text/javascript" src="/resources/fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
-	<script type="text/javascript" src="/resources/fancybox/source/helpers/jquery.fancybox-media.js"></script>
-	<script type="text/javascript" src="/resources/fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/fancybox/source/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/fancybox/source/helpers/jquery.fancybox-media.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$(".fancybox").fancybox();
@@ -32,65 +32,65 @@
 		<!-- Content -->
 		<div id="divMain">
 			<div class="gallery">
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/1_b.jpg" title="Picture 1">
-					<img src="/resources/fancybox/demo/1_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/1_b.jpg" title="Picture 1">
+					<img src=${pageContext.request.contextPath}"/resources/fancybox/demo/1_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/2_b.jpg" title="Picture 2">
-					<img src="/resources/fancybox/demo/2_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/2_b.jpg" title="Picture 2">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/2_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/3_b.jpg" title="Picture 3">
-					<img src="/resources/fancybox/demo/3_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/3_b.jpg" title="Picture 3">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/3_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/4_b.jpg" title="Picture 4">
-					<img src="/resources/fancybox/demo/4_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/4_b.jpg" title="Picture 4">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/4_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/5_b.jpg" title="Picture 5">
-					<img src="/resources/fancybox/demo/5_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/5_b.jpg" title="Picture 5">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/5_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/1_b.jpg" title="Picture 1">
-					<img src="/resources/fancybox/demo/1_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/1_b.jpg" title="Picture 1">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/1_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/2_b.jpg" title="Picture 2">
-					<img src="/resources/fancybox/demo/2_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/2_b.jpg" title="Picture 2">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/2_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/3_b.jpg" title="Picture 3">
-					<img src="/resources/fancybox/demo/3_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/3_b.jpg" title="Picture 3">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/3_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/4_b.jpg" title="Picture 4">
-					<img src="/resources/fancybox/demo/4_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/4_b.jpg" title="Picture 4">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/4_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/5_b.jpg" title="Picture 5">
-					<img src="/resources/fancybox/demo/5_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/5_b.jpg" title="Picture 5">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/5_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/1_b.jpg" title="Picture 1">
-					<img src="/resources/fancybox/demo/1_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/1_b.jpg" title="Picture 1">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/1_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/2_b.jpg" title="Picture 2">
-					<img src="/resources/fancybox/demo/2_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/2_b.jpg" title="Picture 2">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/2_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/3_b.jpg" title="Picture 3">
-					<img src="/resources/fancybox/demo/3_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/3_b.jpg" title="Picture 3">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/3_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/4_b.jpg" title="Picture 4">
-					<img src="/resources/fancybox/demo/4_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/4_b.jpg" title="Picture 4">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/4_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/5_b.jpg" title="Picture 5">
-					<img src="/resources/fancybox/demo/5_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/5_b.jpg" title="Picture 5">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/5_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/1_b.jpg" title="Picture 1">
-					<img src="/resources/fancybox/demo/1_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/1_b.jpg" title="Picture 1">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/1_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/2_b.jpg" title="Picture 2">
-					<img src="/resources/fancybox/demo/2_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/2_b.jpg" title="Picture 2">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/2_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/3_b.jpg" title="Picture 3">
-					<img src="/resources/fancybox/demo/3_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/3_b.jpg" title="Picture 3">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/3_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/4_b.jpg" title="Picture 4">
-					<img src="/resources/fancybox/demo/4_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/4_b.jpg" title="Picture 4">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/4_s.jpg" alt="" />
 				</a>
-				<a class="fancybox" rel="group" href="/resources/fancybox/demo/5_b.jpg" title="Picture 5">
-					<img src="/resources/fancybox/demo/5_s.jpg" alt="" />
+				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/5_b.jpg" title="Picture 5">
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/5_s.jpg" alt="" />
 				</a>				
 			</div>
 		</div>		
