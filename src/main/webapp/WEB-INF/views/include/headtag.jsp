@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="${pageContext.request.contextPath}/resources/font-awesome/css/font-awesome.min.css">
       
 
-	<!--[if lt IE 9]><script type="text/javascript" src="/resources/jQuery/jquery-1.x.min.js"></script><![endif]-->
+	<!--[if lt IE 9]><script type="text/javascript" src="${pageContext.request.contextPath}/resources/jQuery/jquery-1.x.min.js"></script><![endif]-->
 	<!--[if IE 9]><!--><script type="text/javascript" src="${pageContext.request.contextPath}/resources/jQuery/jquery-2.x.min.js"></script><!--<![endif]-->	
 		
 	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/bootstrap/js/bootstrap.min.js"></script>
@@ -28,6 +28,8 @@
 	
 	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/default.js"></script>
 
+	<script type="text/javascript" src="http://s51.sitemeter.com/js/counter.js?site=s51seaspro"></script>
+	
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

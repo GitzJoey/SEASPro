@@ -71,8 +71,13 @@
 					<br>
 					<br>
 					Copyright <span class="glyphicon glyphicon-copyright-mark"></span> 2014 SEAS Pro Partners Pte Ltd. All Rights Reserved. Thanks to GitzJoey<br>
-					${serverTime}.<br>
-					<img alt="counter" src="${pageContext.request.contextPath}/resources/images/counter.png"/>
+					${serverTime}.<br>				
+					<!-- Site Meter -->
+					<noscript>
+						<a href="http://s51.sitemeter.com/stats.asp?site=s51seaspro" target="_top">
+						<img src="http://s51.sitemeter.com/meter.asp?site=s51seaspro" alt="Site Meter" border="0"/></a>
+					</noscript>
+					<!-- Copyright (c)2009 Site Meter -->
 				</p>
 			</div>
 		</div>
