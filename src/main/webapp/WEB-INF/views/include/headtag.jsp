@@ -28,11 +28,9 @@
 	
 	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/default.js"></script>
 
-	<script type="text/javascript" src="http://s51.sitemeter.com/js/counter.js?site=s51seaspro"></script>
-	
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-		<script type="text/javascript" src="/resources/html5shiv/html5shiv.js"></script>
-		<script type="text/javascript" src="/resources/respond.js/respond.min.js"></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/resources/html5shiv/html5shiv.js"></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/resources/respond.js/respond.min.js"></script>
     <![endif]-->
