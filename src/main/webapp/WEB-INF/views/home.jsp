@@ -31,12 +31,12 @@
 					  	<!-- Wrapper for slides -->
 					  	<div class="carousel-inner">
 					    	<div class="item active">
-					      		<img src="${pageContext.request.contextPath}/resources/images/slideshow/slide1.jpg" alt="2 Businessman">
-					      		<div class="carousel-caption">2 Businessman</div>
+					      		<img src="${pageContext.request.contextPath}/resources/images/slideshow/slide1.jpg" alt="Contact our representative now">
+					      		<div class="carousel-caption">Contact our representative now</div>
 							</div>
 					    	<div class="item">
-					      		<img src="${pageContext.request.contextPath}/resources/images/slideshow/slide2.jpg" alt="Keyboard">
-					      		<div class="carousel-caption">Keyboard</div>
+					      		<img src="${pageContext.request.contextPath}/resources/images/slideshow/slide2.jpg" alt="Find schools that fits for you">
+					      		<div class="carousel-caption">Find schools that fits for you</div>
 							</div>
 						</div>
 					
@@ -65,9 +65,6 @@
 							<em>Knowledge will bring you the opportunity to make a difference.</em><br>
 							<small>Clair Fagin</small>							
 							</blockquote>
-  						</div>
-  						<div class="panel-footer">
-  							<!-- <button type="button" class="btn btn-primary btn-sm">Start Now</button> -->
   						</div>
 					</div>
 				</div>
