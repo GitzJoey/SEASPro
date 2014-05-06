@@ -8,8 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/basestyle.css">
 	
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/cerulean-theme/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/cerulean-theme/css/bootswatch.less">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/cerulean-theme/css/variables.less">
+    
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/bootstrap-custom.css">
 	
     <link rel="stylesheet" type="text/css" media="screen" href="${pageContext.request.contextPath}/resources/foundation-icons/foundation-icons.css">
     <link rel="stylesheet" type="text/css" media="screen" href="${pageContext.request.contextPath}/resources/font-awesome/css/font-awesome.min.css">
