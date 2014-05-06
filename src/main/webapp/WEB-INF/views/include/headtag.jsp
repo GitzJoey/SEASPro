@@ -11,11 +11,8 @@
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/cerulean-theme/css/bootswatch.less">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/cerulean-theme/css/variables.less">
 	
-	<!--<link rel="stylesheet" type="text/css" href="/resources/css/bootstrap-custom.css">-->
-
     <link rel="stylesheet" type="text/css" media="screen" href="${pageContext.request.contextPath}/resources/foundation-icons/foundation-icons.css">
     <link rel="stylesheet" type="text/css" media="screen" href="${pageContext.request.contextPath}/resources/font-awesome/css/font-awesome.min.css">
-      
 
 	<!--[if lt IE 9]><script type="text/javascript" src="${pageContext.request.contextPath}/resources/jQuery/jquery-1.x.min.js"></script><![endif]-->
 	<!--[if IE 9]><!--><script type="text/javascript" src="${pageContext.request.contextPath}/resources/jQuery/jquery-2.x.min.js"></script><!--<![endif]-->	
