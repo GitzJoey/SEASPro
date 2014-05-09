@@ -11,6 +11,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.seaspro.common.Constants;
+
 @Controller
 public class PartnersController {
 	private static final Logger logger = LoggerFactory.getLogger(PartnersController.class);
@@ -25,6 +27,7 @@ public class PartnersController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
+		model.addAttribute(Constants.ACTIVEMENU, Constants.MAINMENU_PARTNERS);
 		
 		return "partners";
 	}

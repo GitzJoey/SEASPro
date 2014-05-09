@@ -11,6 +11,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.seaspro.common.Constants;
+
 @Controller
 public class ContactUsController {
 	private static final Logger logger = LoggerFactory.getLogger(ContactUsController.class);
@@ -28,6 +30,7 @@ public class ContactUsController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
+		model.addAttribute(Constants.ACTIVEMENU, Constants.MAINMENU_CONTACTUS);
 		
 		return "contact";
 	}

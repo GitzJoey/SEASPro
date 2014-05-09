@@ -11,6 +11,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.seaspro.common.Constants;
+
 @Controller
 public class FAQController {
 	private static final Logger logger = LoggerFactory.getLogger(FAQController.class);
@@ -25,6 +27,7 @@ public class FAQController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
+		model.addAttribute(Constants.ACTIVEMENU, Constants.MAINMENU_FAQ);
 		
 		return "faq";
 	}

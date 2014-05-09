@@ -40,33 +40,32 @@
 							<a class="navbar-brand hidden-lg hidden-md" href="#">Navigation</a>
 						</div>
 					
-						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li class="nav active"><a href="home.html">Home</a></li>
-								<li class="nav hidden-sm hidden-xs"><a href="about.html">About Us</a></li>
-								<li class="nav dropdown">
+								<li class="nav ${activeMenu == 'MAINPAGE' ? 'active' : ''}"><a href="home.html">Home</a></li>
+								<li class="nav hidden-sm hidden-xs ${activeMenu == 'ABOUTUS' ? 'active' : ''}"><a href="about.html">About Us</a></li>
+								<li class="nav dropdown ${activeMenu == 'SERVICE' ? 'active' : ''}">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
 					        		<ul class="dropdown-menu" role="menu">
-					          			<li><a href="#">Education Consultancy</a></li>
-					          			<li><a href="#">&nbsp;&nbsp;&nbsp;Singapore</a></li>
-					          			<li><a href="#">&nbsp;&nbsp;&nbsp;Malaysia</a></li>
-					          			<li><a href="#">&nbsp;&nbsp;&nbsp;Australia</a></li>
-					          			<li><a href="#">&nbsp;&nbsp;&nbsp;United Kingdom</a></li>
-					          			<li><a href="#">&nbsp;&nbsp;&nbsp;USA</a></li>
+					          			<li><a href="service/educon.html">Education Consultancy</a></li>
+					          			<li><a href="service/educon/sg">&nbsp;&nbsp;&nbsp;Singapore</a></li>
+					          			<li><a href="service/educon/my">&nbsp;&nbsp;&nbsp;Malaysia</a></li>
+					          			<li><a href="service/educon/aus">&nbsp;&nbsp;&nbsp;Australia</a></li>
+					          			<li><a href="service/educon/uk">&nbsp;&nbsp;&nbsp;United Kingdom</a></li>
+					          			<li><a href="service/usa">&nbsp;&nbsp;&nbsp;USA</a></li>
 					          			<li class="divider"></li>
-					          			<li><a href="#">Accommodations</a></li>
+					          			<li><a href="service/accomodations.html">Accommodations</a></li>
 					          			<li class="divider"></li>
-					          			<li><a href="#">Phychology Test</a></li>
+					          			<li><a href="service/phychotest.html">Phychology Test</a></li>
 					          			<li class="divider"></li>
-					          			<li><a href="#">Others</a></li>
+					          			<li><a href="service/others.html">Others</a></li>
 					        		</ul>
 					      		</li>
-								<li class="nav"><a href="#">News / Blogs</a></li>
-								<li class="nav hidden-sm hidden-xs"><a href="partners.html">Partners</a></li>
-								<li class="nav hidden-sm hidden-xs"><a href="gallery.html">Gallery</a></li>
-								<li class="nav"><a href="faq.html">FAQ</a></li>					    		
-					      		<li class="nav"><a href="contact.html">Contact Us</a></li>
+								<li class="nav ${activeMenu == 'NEWSBLOG' ? 'active' : ''}"><a href="newsblogs.html">News / Blogs</a></li>
+								<li class="nav hidden-sm hidden-xs ${activeMenu == 'PARTNERS' ? 'active' : ''}"><a href="partners.html">Partners</a></li>
+								<li class="nav hidden-sm hidden-xs ${activeMenu == 'GALLERY' ? 'active' : ''}"><a href="gallery.html">Gallery</a></li>
+								<li class="nav ${activeMenu == 'FAQ' ? 'active' : ''}"><a href="faq.html">FAQ</a></li>					    		
+					      		<li class="nav ${activeMenu == 'CONTACTUS' ? 'active' : ''}"><a href="contact.html">Contact Us</a></li>
 					    	</ul>
 					    	<form class="navbar-form navbar-right hidden-md hidden-sm hidden-xs" role="search">
 					      		<div class="form-group">

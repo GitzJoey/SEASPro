@@ -33,7 +33,7 @@
 		<div id="divMain">
 			<div class="gallery">
 				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/1_b.jpg" title="Picture 1">
-					<img src=${pageContext.request.contextPath}"/resources/fancybox/demo/1_s.jpg" alt="" />
+					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/1_s.jpg" alt="" />
 				</a>
 				<a class="fancybox" rel="group" href="${pageContext.request.contextPath}/resources/fancybox/demo/2_b.jpg" title="Picture 2">
 					<img src="${pageContext.request.contextPath}/resources/fancybox/demo/2_s.jpg" alt="" />
