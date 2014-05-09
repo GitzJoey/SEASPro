@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 		<!-- Footer -->
 		<div class="divPanel notop nobottom">
@@ -71,14 +72,16 @@
 					<br>
 					<br>
 					Copyright <span class="glyphicon glyphicon-copyright-mark"></span> 2014 SEAS Pro Partners Pte Ltd. All Rights Reserved. Thanks to GitzJoey<br>
-					${serverTime}.<br>				
-					<!-- Site Meter -->
-					<script type="text/javascript" src="http://s51.sitemeter.com/js/counter.js?site=s51seaspro"></script>
-					<noscript>
-					<a href="http://s51.sitemeter.com/stats.asp?site=s51seaspro" target="_top">
-					<img src="http://s51.sitemeter.com/meter.asp?site=s51seaspro" alt="Site Meter" border="0"/></a>
-					</noscript>
-					<!-- Copyright (c)2009 Site Meter -->
+					${serverTime}.<br>
+					<c:if test="${pageContext.request.serverName != 'localhost'}">					
+						<!-- Site Meter -->
+						<script type="text/javascript" src="http://s51.sitemeter.com/js/counter.js?site=s51seaspro"></script>
+						<noscript>
+						<a href="http://s51.sitemeter.com/stats.asp?site=s51seaspro" target="_top">
+						<img src="http://s51.sitemeter.com/meter.asp?site=s51seaspro" alt="Site Meter" border="0"/></a>
+						</noscript>
+						<!-- Copyright (c)2009 Site Meter -->
+					</c:if>
 				</p>
 			</div>
 		</div>

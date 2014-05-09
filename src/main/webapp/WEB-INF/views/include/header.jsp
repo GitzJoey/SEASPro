@@ -42,30 +42,30 @@
 					
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li class="nav ${activeMenu == 'MAINPAGE' ? 'active' : ''}"><a href="home.html">Home</a></li>
-								<li class="nav hidden-sm hidden-xs ${activeMenu == 'ABOUTUS' ? 'active' : ''}"><a href="about.html">About Us</a></li>
+								<li class="nav ${activeMenu == 'MAINPAGE' ? 'active' : ''}"><a href="${pageContext.request.contextPath}/home.html">Home</a></li>
+								<li class="nav hidden-sm hidden-xs ${activeMenu == 'ABOUTUS' ? 'active' : ''}"><a href="${pageContext.request.contextPath}/about.html">About Us</a></li>
 								<li class="nav dropdown ${activeMenu == 'SERVICE' ? 'active' : ''}">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
 					        		<ul class="dropdown-menu" role="menu">
-					          			<li><a href="service/educon.html">Education Consultancy</a></li>
-					          			<li><a href="service/educon/sg">&nbsp;&nbsp;&nbsp;Singapore</a></li>
-					          			<li><a href="service/educon/my">&nbsp;&nbsp;&nbsp;Malaysia</a></li>
-					          			<li><a href="service/educon/aus">&nbsp;&nbsp;&nbsp;Australia</a></li>
-					          			<li><a href="service/educon/uk">&nbsp;&nbsp;&nbsp;United Kingdom</a></li>
-					          			<li><a href="service/usa">&nbsp;&nbsp;&nbsp;USA</a></li>
+					          			<li><a href="${pageContext.request.contextPath}/service/educon.html">Education Consultancy</a></li>
+					          			<li><a href="${pageContext.request.contextPath}/service/educon/sg.html">&nbsp;&nbsp;&nbsp;Singapore</a></li>
+					          			<li><a href="${pageContext.request.contextPath}/service/educon/my.html">&nbsp;&nbsp;&nbsp;Malaysia</a></li>
+					          			<li><a href="${pageContext.request.contextPath}/service/educon/aus.html">&nbsp;&nbsp;&nbsp;Australia</a></li>
+					          			<li><a href="${pageContext.request.contextPath}/service/educon/uk.html">&nbsp;&nbsp;&nbsp;United Kingdom</a></li>
+					          			<li><a href="${pageContext.request.contextPath}/service/usa.html">&nbsp;&nbsp;&nbsp;USA</a></li>
 					          			<li class="divider"></li>
-					          			<li><a href="service/accomodations.html">Accommodations</a></li>
+					          			<li><a href="${pageContext.request.contextPath}/service/accomodations.html">Accommodations</a></li>
 					          			<li class="divider"></li>
-					          			<li><a href="service/phychotest.html">Phychology Test</a></li>
+					          			<li><a href="${pageContext.request.contextPath}/service/phychotest.html">Phychology Test</a></li>
 					          			<li class="divider"></li>
-					          			<li><a href="service/others.html">Others</a></li>
+					          			<li><a href="${pageContext.request.contextPath}/service/others.html">Others</a></li>
 					        		</ul>
 					      		</li>
-								<li class="nav ${activeMenu == 'NEWSBLOG' ? 'active' : ''}"><a href="newsblogs.html">News / Blogs</a></li>
-								<li class="nav hidden-sm hidden-xs ${activeMenu == 'PARTNERS' ? 'active' : ''}"><a href="partners.html">Partners</a></li>
-								<li class="nav hidden-sm hidden-xs ${activeMenu == 'GALLERY' ? 'active' : ''}"><a href="gallery.html">Gallery</a></li>
-								<li class="nav ${activeMenu == 'FAQ' ? 'active' : ''}"><a href="faq.html">FAQ</a></li>					    		
-					      		<li class="nav ${activeMenu == 'CONTACTUS' ? 'active' : ''}"><a href="contact.html">Contact Us</a></li>
+								<li class="nav ${activeMenu == 'NEWSBLOG' ? 'active' : ''}"><a href="${pageContext.request.contextPath}/newsblogs.html">News / Blogs</a></li>
+								<li class="nav hidden-sm hidden-xs ${activeMenu == 'PARTNERS' ? 'active' : ''}"><a href="${pageContext.request.contextPath}/partners.html">Partners</a></li>
+								<li class="nav hidden-sm hidden-xs ${activeMenu == 'GALLERY' ? 'active' : ''}"><a href="${pageContext.request.contextPath}/gallery.html">Gallery</a></li>
+								<li class="nav ${activeMenu == 'FAQ' ? 'active' : ''}"><a href="${pageContext.request.contextPath}/faq.html">FAQ</a></li>					    		
+					      		<li class="nav ${activeMenu == 'CONTACTUS' ? 'active' : ''}"><a href="${pageContext.request.contextPath}/contact.html">Contact Us</a></li>
 					    	</ul>
 					    	<form class="navbar-form navbar-right hidden-md hidden-sm hidden-xs" role="search">
 					      		<div class="form-group">

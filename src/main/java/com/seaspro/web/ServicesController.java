@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -80,9 +81,9 @@ public class ServicesController {
 		return "others";
 	}
 
-	@RequestMapping(value = "/service/educon/sg.html", method = RequestMethod.GET)
-	public String educon_sg(Locale locale, Model model) {
-		logger.info("Landed in Education Consultancy - Singapore! The client locale is {}.", locale);
+	@RequestMapping(value = "/service/educon/{location}", method = RequestMethod.GET)
+	public String educon_location(Locale locale, Model model, @PathVariable(value="location") String location) {
+		logger.info("Landed in Service - Education Consultancy - " + location + "! The client locale is {}.", locale);
 		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
@@ -92,7 +93,7 @@ public class ServicesController {
 		model.addAttribute("serverTime", formattedDate );
 		model.addAttribute(Constants.ACTIVEMENU, Constants.MAINMENU_SERVICE);
 		
-		return "educon";
+		return "servicelocation_sg";
 	}
 
 }
